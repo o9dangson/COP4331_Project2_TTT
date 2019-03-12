@@ -1,7 +1,19 @@
 # COP4331_Project2_TTT
 Tic-Tac-Toe From command line
 
-- Build and Run from the course.oop.main.TTTDriver.java file.
+HOW TO COMPILE AND RUN
+1. Locate location of java "jdk\bin" in system files.
+2. Add to path through command prompt.
+  - Use command: set "PATH=%PATH%;Location_of_jdk\bin"  (example: set "PATH=%PATH%;C:\Program Files\Java\jdk1.8.0_191\bin")
+3. Unzip folder and navigate to location of unzipped files
+4. Navigate to inside using "cd COP4331_Project2_TTT-master\TicTacToe\src"
+5. Compile all files using the following command
+  - javac "course\oop\classes\TTTAI.java" "course\oop\classes\TTTGame.java" "course\oop\classes\TTTPlayer.java" "course\oop\controller\TTTControllerImpl.java" "course\oop\controller\TTTControllerInterface.java" "course\oop\main\TTTDriver.java"
+6. Run the Driver file using the following command
+  - java course.oop.main.TTTDriver
+
+
+
 - Program will initially ask for user input for the answers to "how many players?" and their corresponding username(s) and marker(s).
 - AI is default as Player 2 with the username "computer" and a marker of "O".
 - GUI is interactable through inputting corresponding integers according to the menu options that appear.
